@@ -1,0 +1,58 @@
+.flat{
+    width: 100%;
+}
+.texto{
+    padding: 40px;
+    text-align: center;
+}
+.recA{
+    height: 300px;
+    background-color: #072F44;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    padding: 15px;
+}
+.recB{
+    height: 300px;
+    text-align: center;
+    color: #084577;
+    font-weight: 700;
+    padding: 15px;
+}
+.recC{
+    height: 300px;
+    background-color: #084577;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    padding: 15px;
+}
+.recD{
+    height: 300px;
+    background-color: #0A5574;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    padding: 15px;
+}
+.recF{
+    height: 300px;
+    background-color: #084577;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    padding: 15px;
+}
+.recG{
+    height: 300px;
+    background-color: #072F44;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    padding: 15px;
+}
+.mapa{
+    width: 100%;
+    height: 300px;
+}
