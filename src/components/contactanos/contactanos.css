@@ -1,0 +1,47 @@
+.section{
+    padding: 2em;
+}
+.titulo{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.titu{
+    border-bottom: 3px solid #0A5574;
+}
+.recuadro{
+    background-color: #f2f2f2;
+}
+.subti{
+    font-weight: 600;
+}
+.boxblu{
+    background-color: #0D3D7D;
+  display: flex;
+  justify-content: center;
+
+}
+.contacto{
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form{
+    padding: 10px;
+    width: 90%;
+}
+.formcont{
+    display: flex;
+    justify-content: center;
+}
+.form-label{
+    color: white;
+}
+.beton{
+    text-align: center;
+}
+.area{
+    height: 100px;
+}

@@ -1,0 +1,73 @@
+.footer{
+    background-color: #002368;
+}
+.blo{
+    padding: 15px;
+}
+.foota{
+    text-align: justify;
+}
+.aim{
+    text-align: center;
+}
+.fotext{
+    color: white;
+    font-weight: 400;
+}
+.redes{
+    text-align: center;
+    color: white;
+}
+.footext{
+    text-align: justify;
+}
+.direc{
+    text-align: justify;
+    color: white;
+    align-items: center;
+
+} 
+.y{
+    border-bottom: 1px solid white;
+    font-size: 17px;
+    font-weight: 00;
+}
+.iconos{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.bi-instagram{
+    font-size: 30px;
+    padding-right: 10px;
+    color: white;
+}
+.bi-instagram:hover{
+    color: #C13584;
+}
+.bi-facebook{
+    font-size: 30px;
+    padding-right: 10px;
+    color: white;
+
+}
+.bi-facebook:hover{
+    color: #0165E1;
+}
+.bi-whatsapp{
+    font-size: 30px;
+    padding-right: 10px;
+    color: white;
+
+}
+.bi-whatsapp:hover{
+    color: #28D146;
+}
+.bi-tiktok{
+    font-size: 30px;
+    color: white;
+
+}
+.bi-tiktok:hover{
+    color: black;
+}

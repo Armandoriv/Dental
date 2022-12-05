@@ -1,58 +1,162 @@
-.flat{
-    width: 100%;
-}
 .texto{
     padding: 40px;
     text-align: center;
+    background-color: #f2f2f2;
 }
-.recA{
-    height: 300px;
-    background-color: #072F44;
+.list{
+    list-style: none;
+    font-size: 25px;
+    font-weight: 600;
+}
+.txtc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list::before{
+    background-color: #0A5574 ;
+    top: 50%;
+    left: -2%;
+    position: absolute;
+    content: "";
+    transform: translateY(-50%);
+    width: 4px;
+    height: 70%;
+    transition: 1s;
+}
+.visitanos{
     text-align: center;
-    color: white;
-    font-weight: 700;
-    padding: 15px;
 }
-.recB{
-    height: 300px;
-    text-align: center;
-    color: #084577;
-    font-weight: 700;
-    padding: 15px;
+.visita{
+    display: flex;
+    align-items: center;
 }
-.recC{
-    height: 300px;
-    background-color: #084577;
-    text-align: center;
-    color: white;
-    font-weight: 700;
-    padding: 15px;
+.analisis{
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, .2);
 }
-.recD{
-    height: 300px;
+.visitanos{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.po{
+    font-weight: 600;
+}
+.map{
+    width: 700px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, .2);
+}
+.derecho{
+    display: flex;
+    justify-content: center;
+}
+.descripciones{
+    display: flex;
+    justify-content: end;
+}
+.info{
+    background-color: white;
+    padding: 30px;
+
+}
+.medio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-control-next{
+    display: flex;
+    justify-content: end;
+}
+.carousel-control-prev{
+    display: flex;
+    justify-content: start;
+
+}
+.calidad{
+    padding: 50px;
     background-color: #0A5574;
-    text-align: center;
-    color: white;
-    font-weight: 700;
-    padding: 15px;
+    display: flex;
+    justify-content: center;
 }
-.recF{
-    height: 300px;
-    background-color: #084577;
-    text-align: center;
+.pe{
+    font-size: 17px;
+    font-weight: 500;
     color: white;
-    font-weight: 700;
-    padding: 15px;
 }
-.recG{
-    height: 300px;
-    background-color: #072F44;
+.loguitos{
+    width: 100px;
+}
+.carousel-item{
+    height: 40vh;
+}
+.titulovisit{
     text-align: center;
+    border-bottom: 3px solid #0A5574;
+}
+.visit{
+    background-color: #F2F2F2;
+    padding: 35px;
+}
+.visitanos{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 70%;
+}
+.visitanoss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titucont{
     color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.contall{
+    width: 90%;
+}
+.land{
     font-weight: 700;
-    padding: 15px;
+    text-align: center;
+    font-size: 70px;
+}
+.despues{
+    width: 250px;
+    text-align: center;
+}
+.land1{
+    font-weight: 700;
+    text-align: center;
+
+}
+.lande{
+    text-align: center;
+    width: 120px;
+
 }
 .mapa{
     width: 100%;
     height: 300px;
+}
+.landing{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 25%, rgba(0,212,255,1) 100%);
 }

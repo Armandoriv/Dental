@@ -1,0 +1,138 @@
+.doctores{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px;
+}
+.dentistas{
+  background-color: #f2f2f2;
+}
+.card{
+    border: none;
+}
+.card-title{
+    text-align: center;
+}
+.skills{
+    text-align: start;
+}
+.imgdrs{
+    height: 200px;
+
+}
+
+.container {
+    position : relative;
+    width : 1100px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    padding : 30px;  
+  }
+  
+  .container .card {
+    position: relative;
+    max-width : 400px;
+    height : 215px;  
+    background-color : #fff;
+    margin : 30px 10px;
+    padding : 20px 15px;
+    
+    display : flex;
+    flex-direction : column;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+    transition : 0.3s ease-in-out;
+    border-radius : 15px;
+  }
+  .container .card:hover {
+    height : 400px;    
+  }
+  
+  
+  .container .card .image {
+    position : relative;
+    text-align: center;
+    width : 360px;
+    height : 260px;
+    
+    top : -40%;
+    left: 8px;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+    z-index : 1;
+  }
+  
+  .container .card .image img {
+    max-width : 100%;
+    border-radius : 15px;
+  }
+  
+  .container .card .content {
+    position : relative;
+    top : -140px;
+    padding : 10px 15px;
+    color : #111;
+    text-align : center;
+    
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+      
+  }
+  
+  .container .card:hover .content {
+     margin-top : 30px;
+     visibility : visible;
+     opacity : 1;
+     transition-delay: 0.2s;
+    
+  }
+  @media (max-width: 600px) {
+    .container .card .image {
+      position : relative;
+      text-align: center;
+      width : 260px;
+      height : 260px;
+      
+      top : -40%;
+      left: 8px;
+      box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+      z-index : 1;
+    }
+    .container .card {
+      position: relative;
+      max-width : 300px;
+      height : 215px;  
+      background-color : #fff;
+      margin : 30px 10px;
+      padding : 20px 15px;
+      
+      display : flex;
+      flex-direction : column;
+      box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+      transition : 0.3s ease-in-out;
+      border-radius : 15px;
+    }
+    .container .card:hover {
+      height : 500px;    
+    }
+    .container .card .content {
+      position : relative;
+      top : -140px;
+      padding : 10px 15px;
+      color : #111;
+      text-align : center;
+      
+      visibility : hidden;
+      opacity : 0;
+      transition : 0.3s ease-in-out;
+        
+    }
+    
+    .container .card:hover .content {
+       margin-top : 5px;
+       visibility : visible;
+       opacity : 1;
+       transition-delay: 0.2s;
+      
+    }
+
+  }

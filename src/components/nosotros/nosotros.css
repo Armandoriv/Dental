@@ -1,0 +1,142 @@
+.ana{
+    height: 600px;
+}
+.txt{
+    font-size: 20px;
+    font-weight: 600;
+}
+.mainthing{
+    display: flex;
+    align-items: center;
+}
+.mainthing .contactoMain{
+    justify-content: end;
+}
+.nosotros{
+    background-color: #F2F2F2;
+
+}
+.mainthing .contactoMainn{
+    justify-content: start;
+}
+.asis{
+    width: 250px;
+}
+.nosotrostitu{
+    text-align: center;
+    display: flex;;
+    justify-content: center;
+    background-color: white;
+}
+
+@media (max-width: 600px) {
+    .asis{
+     width: 170px;
+    }
+    .txt{
+        font-size: 15px;
+    }
+    .land{
+        font-weight: 700;
+        text-align: center;
+        font-size: 60px;
+    }
+    .land1{
+        font-weight: 700;
+        text-align: center;
+    
+    }
+    .lande{
+        text-align: center;
+        width: 120px;
+    
+    }
+    .analisis{
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, .2);
+    }
+   
+  }
+@media (max-width: 988px) {
+    .info{
+        background-color: white;
+        text-align: center;
+    
+    }
+    .titulovisit{
+        text-align: center;
+        padding-top: 50px;
+    }
+    .list::before{
+        background-color: #0A5574 ;
+        top: 50%;
+        left: -2%;
+        position: absolute;
+        content: "";
+        transform: translateY(-50%);
+        width: 2px;
+        height: 70%;
+        transition: 1s;
+        text-align: center;
+    }
+    .analisis{
+        padding-top: 20px;
+        width: 80%;
+        border-radius: 10px;
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, .2);
+    }
+
+    
+}
+@media (max-width: 394px) {
+    .analisis{
+        width: 80%;
+        border-radius: 10px;
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, .2);
+        padding-top: 20px;
+    }
+    .land{
+        font-weight: 700;
+        text-align: center;
+        font-size: 50px;
+    }
+    .land1{
+        font-weight: 700;
+        text-align: center;
+        font-size: 20px;
+    
+    }
+    .list::before{
+        background-color: #0A5574 ;
+        top: 50%;
+        left: -2%;
+        position: absolute;
+        content: "";
+        transform: translateY(-50%);
+        width: 2px;
+        height: 70%;
+        transition: 1s;
+        text-align: center;
+    }
+    .titucont{
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-item{
+        height: 30vh;
+        align-items: center;
+    }
+    .analisis{
+        width: 350px;
+        border-radius: 10px;
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, .2);
+        padding-top: 20px;
+    }
+   
+}
