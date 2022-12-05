@@ -5,13 +5,8 @@
     color: white;
     font-weight: 700;
     padding: 15px;
-    transform: translateX(0px);
     transition: 2s all;
     
-}
-.cuadros{
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .recA:hover{

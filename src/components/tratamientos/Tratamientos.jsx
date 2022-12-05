@@ -13,7 +13,7 @@ const Tratamientos = () => {
             <p className='he'>Porqué tu sonrisa es nuestra prioridad, en Diseño dental contamos con una gran variedad de tratamientos</p>
             <main className='container'>
                 <div className='row cuadros'>
-                    <div className='col-lg-4 recA' data-aos="fade-in" data-aos-once="true" data-aos-duration="1250">
+                    <div className='col-lg-4 col-md-12 recA' data-aos="fade-in" data-aos-once="true" data-aos-duration="1250">
                         <h5>Blanqueamiento Dental</h5>
                         <img src="../img/blanqueamiento.png" alt="" />
                         <p>Contamos con distintos tipos de blanqueamiento dental que se adaptan totalmente a tus necesidades</p>

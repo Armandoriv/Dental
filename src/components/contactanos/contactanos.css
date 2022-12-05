@@ -17,7 +17,6 @@
     font-weight: 600;
 }
 .boxblu{
-    background-color: #0D3D7D;
   display: flex;
   justify-content: center;
 
@@ -29,8 +28,10 @@
     justify-content: center;
 }
 .form{
-    padding: 10px;
+    padding: 20px;
     width: 90%;
+    background-color: #0D3D7D;
+    border-radius: 20px;
 }
 .formcont{
     display: flex;

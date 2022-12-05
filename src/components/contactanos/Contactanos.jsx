@@ -28,30 +28,31 @@ const sendEmail = (event) => {
 
     return (
         <>
-            <section className='container contacto mt-5'>
+            <section className='mt-5'>
                 <div className='row'>
-                    <div className='titulo col-lg-12' data-aos="fade-down" data-aos-once="true" data-aos-duration="2000">
+                    <div className='titulo mt-5' data-aos="fade-down" data-aos-once="true" data-aos-duration="2000">
                         <h1 className='titu'>Contactanos</h1>
                     </div>
-                    <>
-                        <div className='boxblu mt-5' data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+                    <div className=''>
+                        <div className='boxblu mt-5 mb-5' data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
                             <form id="form" className='form' onSubmit={sendEmail}>
-                                <div className='container-fluid'>
+                                <div className=''>
                                     <div className='row'>
-                                        <div className='col-md-6'>
+                                        <div className='col-lg-6 col-md-6'>
                                             <div className='mt-3'>
                                                 <label htmlFor="name" className="form-label">Nombre</label>
                                                 <input type="text" placeholder="Nombre:" className="form-control" name="name" id="name" required />
                                             </div>
                                             <div className="mt-3">
-                                                <label htmlFor="phone" className="form-label">Teléfono</label>
-                                                <input type="number" placeholder="Teléfono:" className="form-control" name="phone" id="phone" required />
-                                            </div>
-                                        </div>
-                                        <div className='col-md-6'>
-                                            <div className="mt-3">
                                                 <label htmlFor="last" className="form-label">Apellidos</label>
                                                 <input type="text" placeholder="Apellidos:" className="form-control" name="last" id="last" required />
+                                            </div>
+                                            
+                                        </div>
+                                        <div className=' col-lg-6 col-md-6'>
+                                            <div className="mt-3">
+                                                <label htmlFor="phone" className="form-label">Teléfono</label>
+                                                <input type="number" placeholder="Teléfono:" className="form-control" name="phone" id="phone" required />
                                             </div>
                                             <div className="mt-3">
                                                 <label htmlFor="email" className="form-label">Email</label>
@@ -60,16 +61,17 @@ const sendEmail = (event) => {
                                         </div>
                                     </div>
                                 </div>
-                                    <div>
-                                        <label htmlFor="message" className="form-label mt-3">Mensaje</label>
-                                        <input type="text" placeholder="Mensaje:" className="form-control area" name="message" id="message" required />
-                                    </div>
-                                    <div className="beton">
-                                        <button type="submit" className="btn btn-success mt-3" id="button" defaultValue="Send Email" value="Enviar">Enviar</button>
-                                    </div>
+                                <div>
+                                    <label htmlFor="message" className="form-label mt-3">Mensaje</label>
+                                    <input type="text" placeholder="Mensaje:" className="form-control area" name="message" id="message" required />
+                                </div>
+                                <div className="beton">
+                                    <button type="submit" className="btn btn-success mt-3" id="button" defaultValue="Send Email" value="Enviar">Enviar</button>
+                                </div>
                             </form>            
                         </div>
-                    </>
+                    </div>
+                    
                 </div>
             </section>
         </>
