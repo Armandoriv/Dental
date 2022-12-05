@@ -33,6 +33,9 @@
     .asis{
      width: 170px;
     }
+    .recuadros{
+        padding: 0px;
+    }
     .txt{
         font-size: 15px;
     }

@@ -11,7 +11,7 @@ const Tratamientos = () => {
               <h1 className='hu'>Tratamientos</h1> 
             </div>
             <p className='he'>Porqué tu sonrisa es nuestra prioridad, en Diseño dental contamos con una gran variedad de tratamientos</p>
-            <main className='container'>
+            <main className='recuadros'>
                 <div className='row cuadros'>
                     <div className='col-lg-4 col-md-12 recA' data-aos="fade-in" data-aos-once="true" data-aos-duration="1250">
                         <h5>Blanqueamiento Dental</h5>

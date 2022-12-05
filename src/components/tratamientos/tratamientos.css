@@ -1,64 +1,58 @@
 .recA{
-    height: 300px;
     background-color: #072F44;
     text-align: center;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
     padding: 15px;
     transition: 2s all;
     
 }
 
-.recA:hover{
-    box-shadow: 6px 6px 40px 10px #AAA;
-}
 .recB{
-    height: 300px;
     text-align: center;
     color: #084577;
-    font-weight: 700;
+    font-weight: 500;
     padding: 15px;
     background-color: #F2F2F2F2;
 }
 .recC{
-    height: 300px;
     background-color: #084577;
     text-align: center;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
     padding: 15px;
 }
 .recD{
-    height: 300px;
     background-color: #0A5574;
     text-align: center;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
     padding: 15px;
 }
 .recF{
-    height: 300px;
     background-color: #084577;
     text-align: center;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
     padding: 15px;
 }
 .recG{
-    height: 300px;
     background-color: #072F44;
     text-align: center;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
     padding: 15px;
 }
 .recH{
-    font-weight: 700;
     padding: 15px;
     background-color: #0A5574;
     height: 300px;
     text-align: center;
+    font-weight: 500;
     color: white;
+}
+.recuadros{
+    padding: 40px;
 }
 .hu{
     padding-top: 50px;
@@ -76,4 +70,10 @@
     text-align: center;
     display: flex;
     justify-content: center;
+}
+@media (max-width: 394px) {
+    .recuadros{
+        padding: 0;
+    }
+
 }
