@@ -103,7 +103,7 @@ const Home = () => {
 
                             </div>
                             <div className='col-lg-6 col-md-6'>
-                                <Link to='/contactanos'><button className='btn btn-success' data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">Contacar</button></Link>
+                                <Link to='/contactanos'><button className='btn btn-success' data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">Contactar</button></Link>
                                 
 
                             </div>
