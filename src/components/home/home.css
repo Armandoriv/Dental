@@ -67,14 +67,9 @@
     align-items: center;
     justify-content: center;
 }
-.carousel-control-next{
-    display: flex;
-    justify-content: end;
-}
-.carousel-control-prev{
-    display: flex;
-    justify-content: start;
-
+.imgc{
+    width: 50px;
+    height: 150px;
 }
 .calidad{
     padding: 50px;
@@ -127,6 +122,12 @@
 .contall{
     width: 90%;
 }
+.carr{
+    text-align: center;
+}
+.imgd{
+    text-align: center;
+}
 .land{
     font-weight: 700;
     text-align: center;
@@ -134,7 +135,6 @@
 }
 .despues{
     width: 250px;
-    text-align: center;
 }
 .land1{
     font-weight: 700;

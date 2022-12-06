@@ -132,7 +132,6 @@
 
 @media (max-width: 767px) {
     .carousel-item{
-        height: 30vh;
         align-items: center;
     }
     .analisis{

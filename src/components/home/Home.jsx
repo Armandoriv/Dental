@@ -16,6 +16,7 @@ const Home = () => {
                 <img className='lande mt-3' src="../img/logoletra.png" alt="" data-aos="fade-in" data-aos-once="true" data-aos-duration="1000" data-aos-delay="3000"/>
             </div>
         </section>
+        <Carousell/>
         <section className='calidad'>
             <div className='row contall'>
                 <p className='titucont' data-aos="fade-down" data-aos-once="true" data-aos-duration="1000">En diseño dental contamos con:</p>
